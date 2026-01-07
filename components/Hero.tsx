@@ -20,11 +20,11 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold leading-tight">
-            CRIANDO{" "}
+            SOLUÇÕES{" "}
             <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
-              EXPERIÊNCIAS
+              DIGITAIS
             </span>{" "}
-            DIGITAIS
+            MODERNAS
           </h1>
 
           <p className="mt-6 max-w-xl text-gray-300">
