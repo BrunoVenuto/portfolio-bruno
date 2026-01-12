@@ -7,17 +7,17 @@ import Image from "next/image";
 const projects = [
   {
     id: 1,
-    title: "Landing Page Advogada Maria Eduarda",
+    title: "Landing Page Advogada Maria Eduarda Cavalcante",
     description: "Landing page focada em captação de leads para escritório de advocacia.",
     image: "/projects/advogada.png",
     link: "https://maria-eduarda-advogada.vercel.app/",
   },
   {
     id: 2,
-    title: "Site Institucional",
-    description: "Site institucional moderno e responsivo para empresa de serviços.",
-    image: "/projects/institucional.png",
-    link: "https://site-advocacia-nextjs.vercel.app/",
+    title: "CellShop",
+    description: "E-commerce de vendas de celular",
+    image: "/projects/ecommerce.png",
+    link: "https://smartphone-store-nextjs.vercel.app/",
   },
   {
     id: 3,
