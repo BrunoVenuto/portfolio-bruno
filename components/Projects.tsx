@@ -26,6 +26,14 @@ const projects = [
     image: "/projects/modelo.png",
     link: "https://advogado-criminal-painel-admin-pwo3.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Template de Loja WhatsApp (Next.js)",
+    description: "Template completo de e-commerce com carrinho e finalização de pedido via WhatsApp, focado em pequenos e médios lojistas. Projeto mobile-first, com UX profissional e totalmente configurável via painel de configuração.",
+    Techs: "Next.js, TypeScript, Tailwind CSS",
+    image: "/projects/ecommerce-whatsapp.png",
+    link: "https://ecommerce-whatsapp-template.vercel.app/",
+  },
 ];
 
 
