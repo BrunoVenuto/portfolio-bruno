@@ -34,6 +34,14 @@ const projects = [
     image: "/projects/ecommerce-whatsapp.png",
     link: "https://ecommerce-whatsapp-template.vercel.app/",
   },
+  {
+    id: 5,
+    title: "E-commerce de Suplementos",
+    description: "Loja virtual de suplementos desenvolvida com foco em conversão, performance e experiência do usuário. Projeto completo com vitrine de produtos, páginas individuais, carrinho de compras e layout 100% responsivo, pronto para ser adaptado para qualquer nicho de e-commerce.",
+    Techs: "Next.js, TypeScript, Tailwind CSS",
+    image: "/projects/loja suplementos.png",
+    link: "https://catalogo-premium.vercel.app/",
+  },
 ];
 
 
