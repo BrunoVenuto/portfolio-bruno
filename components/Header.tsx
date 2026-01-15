@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -7,7 +8,25 @@ export default function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/60 backdrop-blur">
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
-        <strong className="text-sm tracking-wide">BRUNO</strong>
+        
+        {/* LOGO + NOME */}
+        <a href="#topo" className="flex items-center gap-3 group">
+          <Image
+            className="rounded-xl w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-105"
+            src="/logo-full.png"
+            alt="Brunotech"
+            width={50}
+            height={50}
+            priority
+          />
+          <span className="text-base sm:text-lg md:text-xl lg:text-2xl font-extrabold tracking-tight">
+            Bruno{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+              Tech
+            </span>
+          </span>
+
+        </a>
 
         {/* Menu desktop */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-gray-300">

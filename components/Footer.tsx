@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-black/60">
@@ -8,7 +10,15 @@ export default function Footer() {
 
           {/* COLUNA 1 – BRAND */}
           <div>
-            <h3 className="font-bold text-lg mb-3">Bruno</h3>
+            {/* LOGO */}
+            <Image
+              src="/app-icon.png"
+              alt="Brunotech"
+              width={180}
+              height={60}
+              className="mb-4 opacity-90"
+            />
+
             <p className="text-sm text-gray-400 max-w-xs">
               Desenvolvedor Front-End focado em criar experiências digitais
               modernas, performáticas e orientadas a resultados.

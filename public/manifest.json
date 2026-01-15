@@ -1,0 +1,21 @@
+{
+  "name": "Brunotech Soluções Digitais",
+  "short_name": "Brunotech",
+  "description": "Brunotech Soluções Digitais - Desenvolvimento de sites e soluções web.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061a4d",
+  "theme_color": "#061a4d",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

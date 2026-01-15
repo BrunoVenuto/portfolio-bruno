@@ -17,6 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Bruno | Desenvolvedor Front-End",
   description: "Criação de landing pages e sites profissionais focados em conversão.",
+  manifest: "/manifest.json",
   keywords: [
     "desenvolvedor front-end",
     "desenvolvedor freelance",
@@ -27,6 +28,46 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Bruno" }],
   creator: "Bruno",
+
+  // ====== NOVO: ÍCONES / PWA ======
+  applicationName: "Brunotech",
+
+  icons: {
+    icon: [
+      { url: "/app-icon.png" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+
+  // ====== NOVO: OPEN GRAPH ======
+  openGraph: {
+    title: "Bruno | Desenvolvedor Front-End",
+    description: "Criação de landing pages e sites profissionais focados em conversão.",
+    url: "https://portfolio-bruno-pi.vercel.app/",
+    siteName: "Brunotech",
+    images: [
+      {
+        url: "/icon.png",
+        width: 512,
+        height: 512,
+        alt: "Brunotech",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+
+  // ====== NOVO: TWITTER ======
+  twitter: {
+    card: "summary",
+    title: "Bruno | Desenvolvedor Front-End",
+    description: "Criação de landing pages e sites profissionais focados em conversão.",
+    images: ["/icon.png"],
+  },
+
+  // ====== NOVO: COR DO TEMA ======
+  
 };
 
 export default function RootLayout({
