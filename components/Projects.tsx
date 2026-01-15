@@ -42,6 +42,14 @@ const projects = [
     image: "/projects/loja suplementos.png",
     link: "https://catalogo-premium.vercel.app/",
   },
+  {
+    id: 6,
+    title: "EngTech — Site Institucional para Engenharia Civil",
+    description: "Projeto de site institucional desenvolvido para a EngTech, empresa de engenharia civil de Sete Lagoas/MG, com foco em apresentação profissional da marca e captação de leads.",
+    Techs: "Next.js, TypeScript, Tailwind CSS",
+    image: "/projects/engtech.png",
+    link: "https://engetech-eta.vercel.app/",
+  },
 ];
 
 
