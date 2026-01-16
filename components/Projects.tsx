@@ -50,6 +50,14 @@ const projects = [
     image: "/projects/engtech.png",
     link: "https://engetech-eta.vercel.app/",
   },
+  {
+    id: 7,
+    title: "BurgMaster",
+    description: "Landing page moderna para hamburgueria artesanal, com cardápio digital interativo, animações fluidas e design focado em conversão. Interface mobile-first otimizada para delivery.",
+    Techs: "React, Tailwind CSS",
+    image: "/projects/burgmaster.png",
+    link: "https://burg-master.vercel.app/",
+  },
 ];
 
 
