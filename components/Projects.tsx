@@ -8,7 +8,8 @@ const projects = [
   {
     id: 1,
     title: "Landing Page Advogada Maria Eduarda Cavalcante",
-    description: "Landing page focada em captação de leads para escritório de advocacia.",
+    description:
+      "Landing page focada em captação de leads para escritório de advocacia.",
     image: "/projects/advogada.png",
     link: "https://maria-eduarda-advogada.vercel.app/",
   },
@@ -22,14 +23,16 @@ const projects = [
   {
     id: 3,
     title: "Modelo Advogado Com Painel Administrativo",
-    description: "Landing page focada em captação de leads para escritório de advocacia",
+    description:
+      "Landing page focada em captação de leads para escritório de advocacia",
     image: "/projects/modelo.png",
     link: "https://advogado-criminal-painel-admin-pwo3.vercel.app/",
   },
   {
     id: 4,
     title: "Template de Loja WhatsApp (Next.js)",
-    description: "Template completo de e-commerce com carrinho e finalização de pedido via WhatsApp, focado em pequenos e médios lojistas. Projeto mobile-first, com UX profissional e totalmente configurável via painel de configuração.",
+    description:
+      "Template completo de e-commerce com carrinho e finalização de pedido via WhatsApp, focado em pequenos e médios lojistas. Projeto mobile-first, com UX profissional e totalmente configurável via painel de configuração.",
     Techs: "Next.js, TypeScript, Tailwind CSS",
     image: "/projects/ecommerce-whatsapp.png",
     link: "https://ecommerce-whatsapp-template.vercel.app/",
@@ -37,7 +40,8 @@ const projects = [
   {
     id: 5,
     title: "E-commerce de Suplementos",
-    description: "Loja virtual de suplementos desenvolvida com foco em conversão, performance e experiência do usuário. Projeto completo com vitrine de produtos, páginas individuais, carrinho de compras e layout 100% responsivo, pronto para ser adaptado para qualquer nicho de e-commerce.",
+    description:
+      "Loja virtual de suplementos desenvolvida com foco em conversão, performance e experiência do usuário. Projeto completo com vitrine de produtos, páginas individuais, carrinho de compras e layout 100% responsivo, pronto para ser adaptado para qualquer nicho de e-commerce.",
     Techs: "Next.js, TypeScript, Tailwind CSS",
     image: "/projects/loja suplementos.png",
     link: "https://catalogo-premium.vercel.app/",
@@ -45,7 +49,8 @@ const projects = [
   {
     id: 6,
     title: "EngTech — Site Institucional para Engenharia Civil",
-    description: "Projeto de site institucional desenvolvido para a EngTech, empresa de engenharia civil de Sete Lagoas/MG, com foco em apresentação profissional da marca e captação de leads.",
+    description:
+      "Projeto de site institucional desenvolvido para a EngTech, empresa de engenharia civil de Sete Lagoas/MG, com foco em apresentação profissional da marca e captação de leads.",
     Techs: "Next.js, TypeScript, Tailwind CSS",
     image: "/projects/engtech.png",
     link: "https://engetech-eta.vercel.app/",
@@ -53,10 +58,19 @@ const projects = [
   {
     id: 7,
     title: "BurgMaster",
-    description: "Landing page moderna para hamburgueria artesanal, com cardápio digital interativo, animações fluidas e design focado em conversão. Interface mobile-first otimizada para delivery.",
+    description:
+      "Landing page moderna para hamburgueria artesanal, com cardápio digital interativo, animações fluidas e design focado em conversão. Interface mobile-first otimizada para delivery.",
     Techs: "React, Tailwind CSS",
     image: "/projects/burgmaster.png",
     link: "https://burg-master.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Barbearia Brutal & Co.",
+    description: "Landing Page / Site institucional",
+    Techs: "React + Vite + Tailwind CSS",
+    image: "/projects/brutal-barber",
+    link: "https://brutal-barber.vercel.app/",
   },
 ];
 
